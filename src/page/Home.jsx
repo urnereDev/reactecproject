@@ -7,7 +7,7 @@ function Home() {
   const {products} = useContext(ProductContext);
 
   const filteredProducts = products.filter((item) => {
-    return (item.category.name === "Software QA Zero to Hero" || item.category.name === "Zagreb");
+    return (item.category === "electronics" || item.category === "men's clothing");
   })
 
   return (
@@ -18,7 +18,7 @@ function Home() {
             {filteredProducts.map(product =>{
             return (
               
-              <Product product={product} key={product.category.id} />
+              <Product product={product} key={product.id} />
             )
         })}
       </div>

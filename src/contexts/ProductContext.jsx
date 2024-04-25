@@ -7,7 +7,7 @@ function ProductProvider({children}) {
   const [products, setProducts] =useState([]);
   useEffect(()=> {
     const axiosProducts = async ()=> {
-      const response = await axios.get('https://api.escuelajs.co/api/v1/products/');
+      const response = await axios.get('https://fakestoreapi.com/products');
       const data = await response.data;
       setProducts(data)
     };
