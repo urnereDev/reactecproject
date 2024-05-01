@@ -4,6 +4,7 @@ import { SidebarContext } from '../contexts/SidebarContext'
 import { CartContext } from '../contexts/CartContext';
 import { Link } from 'react-router-dom';
 import Logo from '../img/logo.svg'
+import Home from '../page/Home';
 
 function Header() {
   const [isActive,setIsActive] = useState(false);
@@ -17,8 +18,8 @@ function Header() {
   return (
     <header className={`${isActive ? 'bg-white shadow-md' : 'bg-none'} fixed w-full z-10 transition-all`}>
       <div className='flex container mx-auto items-center justify-between h-full'>
-        <Link>
-          <div>
+        <Link to={'/'}>
+          <div >
             <img className='w-[40px]' src={Logo} alt="" />
           </div>
         </Link>
