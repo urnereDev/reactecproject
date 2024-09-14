@@ -1,8 +1,28 @@
-# React + Vite
+# React E-Ticaret Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, modern bir e-ticaret web uygulamasının ön yüzünü React kullanarak oluşturmayı amaçlamaktadır. Uygulama, kullanıcı dostu bir arayüz ve temel e-ticaret işlevselliği sunmaktadır.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive tasarım
+- Alışveriş sepeti işlevselliği
+- Ürün listeleme ve detay sayfaları
+- Arama özelliği
+- React Router ile sayfa yönlendirme
+- Context API ile durum yönetimi
+
+## Teknolojiler
+
+- React.js
+- React Router
+- Context API
+- Tailwind CSS
+- React Icons
+
+## Kurulum
+
+Projeyi yerel makinenizde çalıştırmak için:
+
+1. Repoyu klonlayın
+2. `npm install` komutunu çalıştırın
+3. `npm start` ile uygulamayı başlatın
